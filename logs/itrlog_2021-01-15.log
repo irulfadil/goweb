@@ -1,0 +1,42 @@
+{"level":"info","ts":1610699987.5284333,"msg":"Web server started at 2021-01-15 16:39:47.5264282 +0800 PST"}
+{"level":"info","ts":1610700020.3159325,"msg":"IP:127.0.0.1:50957:/:2021-01-15 16:39:47.5264282 +0800 PST"}
+{"level":"info","ts":1610700020.4241238,"msg":"IP:127.0.0.1:50957:/static/stream-dashboard-ui-kit/assets/vendor/font-awesome/css/all.min.css:2021-01-15 16:39:47.5264282 +0800 PST"}
+{"level":"info","ts":1610700020.4341297,"msg":"IP:127.0.0.1:50957:/static/stream-dashboard-ui-kit/assets/css/theme.css:2021-01-15 16:39:47.5264282 +0800 PST"}
+{"level":"info","ts":1610700020.439133,"msg":"IP:127.0.0.1:50957:/static/sweetalert2/sweetalert2.css:2021-01-15 16:39:47.5264282 +0800 PST"}
+{"level":"info","ts":1610700020.5311952,"msg":"IP:127.0.0.1:50957:/static/assets/js/wasm_exec.js:2021-01-15 16:39:47.5264282 +0800 PST"}
+{"level":"info","ts":1610700020.5532103,"msg":"IP:127.0.0.1:50957:/:2021-01-15 16:39:47.5264282 +0800 PST"}
+{"level":"info","ts":1610700020.5652194,"msg":"IP:127.0.0.1:50963:/static/assets/images/Maharlikans_Code_Top_Logo.png:2021-01-15 16:39:47.5264282 +0800 PST"}
+{"level":"info","ts":1610700020.577226,"msg":"IP:127.0.0.1:50957:/static/stream-dashboard-ui-kit/assets/svg/mockups/mockup.svg:2021-01-15 16:39:47.5264282 +0800 PST"}
+{"level":"info","ts":1610700020.592236,"msg":"IP:127.0.0.1:50957:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-1.svg:2021-01-15 16:39:47.5264282 +0800 PST"}
+{"level":"info","ts":1610700020.6492746,"msg":"IP:127.0.0.1:50957:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-2.svg:2021-01-15 16:39:47.5264282 +0800 PST"}
+{"level":"info","ts":1610700020.6582806,"msg":"IP:127.0.0.1:50963:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-3.svg:2021-01-15 16:39:47.5264282 +0800 PST"}
+{"level":"info","ts":1610700020.6923048,"msg":"IP:127.0.0.1:50963:/static/jquery/dist/jquery.min.js:2021-01-15 16:39:47.5264282 +0800 PST"}
+{"level":"info","ts":1610700020.6933045,"msg":"IP:127.0.0.1:50957:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-4.svg:2021-01-15 16:39:47.5264282 +0800 PST"}
+{"level":"info","ts":1610700020.708314,"msg":"IP:127.0.0.1:50957:/static/sweetalert2/sweetalert2.all.min.js:2021-01-15 16:39:47.5264282 +0800 PST"}
+{"level":"info","ts":1610700021.1315978,"msg":"IP:127.0.0.1:50957:/static/assets/images/favicon.ico:2021-01-15 16:39:47.5264282 +0800 PST"}
+{"level":"info","ts":1610700052.6145802,"msg":"IP:127.0.0.1:50957:/static/assets/js/wasm_exec.js:2021-01-15 16:39:47.5264282 +0800 PST"}
+{"level":"error","ts":1610700650.499871,"msg":"http: Server closed"}
+{"level":"warn","ts":1610700651.0005987,"msg":"Server has been shutdown at 2021-01-15 16:39:47.5264282 +0800 PST"}
+{"level":"info","ts":1610701650.6930108,"msg":"Web server started at 2021-01-15 17:07:30.6920118 +0800 PST"}
+{"level":"info","ts":1610701659.5949564,"msg":"IP:127.0.0.1:51232:/:2021-01-15 17:07:30.6920118 +0800 PST"}
+{"level":"info","ts":1610701659.7699676,"msg":"IP:127.0.0.1:51232:/static/stream-dashboard-ui-kit/assets/vendor/font-awesome/css/all.min.css:2021-01-15 17:07:30.6920118 +0800 PST"}
+{"level":"info","ts":1610701659.7719693,"msg":"IP:127.0.0.1:51233:/static/stream-dashboard-ui-kit/assets/css/theme.css:2021-01-15 17:07:30.6920118 +0800 PST"}
+{"level":"info","ts":1610701659.7729695,"msg":"IP:127.0.0.1:51234:/static/assets/js/wasm_exec.js:2021-01-15 17:07:30.6920118 +0800 PST"}
+{"level":"info","ts":1610701659.8840442,"msg":"IP:127.0.0.1:51233:/static/stream-dashboard-ui-kit/assets/svg/mockups/mockup.svg:2021-01-15 17:07:30.6920118 +0800 PST"}
+{"level":"info","ts":1610701659.8870463,"msg":"IP:127.0.0.1:51234:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-2.svg:2021-01-15 17:07:30.6920118 +0800 PST"}
+{"level":"info","ts":1610701659.8870463,"msg":"IP:127.0.0.1:51232:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-1.svg:2021-01-15 17:07:30.6920118 +0800 PST"}
+{"level":"info","ts":1610701659.894053,"msg":"IP:127.0.0.1:51234:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-3.svg:2021-01-15 17:07:30.6920118 +0800 PST"}
+{"level":"info","ts":1610701659.8970532,"msg":"IP:127.0.0.1:51232:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-4.svg:2021-01-15 17:07:30.6920118 +0800 PST"}
+{"level":"info","ts":1610701660.0724938,"msg":"IP:127.0.0.1:51232:/static/stream-dashboard-ui-kit/assets/vendor/font-awesome/webfonts/fa-regular-400.woff2:2021-01-15 17:07:30.6920118 +0800 PST"}
+{"level":"info","ts":1610701684.125445,"msg":"IP:127.0.0.1:51232:/login:2021-01-15 17:07:30.6920118 +0800 PST"}
+{"level":"info","ts":1610701684.2483063,"msg":"IP:127.0.0.1:51232:/static/assets/js/wasm_exec.js:2021-01-15 17:07:30.6920118 +0800 PST"}
+{"level":"info","ts":1610701813.7519212,"msg":"IP:127.0.0.1:51314:/:2021-01-15 17:07:30.6920118 +0800 PST"}
+{"level":"info","ts":1610701813.8379793,"msg":"IP:127.0.0.1:51314:/static/assets/js/wasm_exec.js:2021-01-15 17:07:30.6920118 +0800 PST"}
+{"level":"info","ts":1610701817.3560355,"msg":"IP:127.0.0.1:51314:/:2021-01-15 17:07:30.6920118 +0800 PST"}
+{"level":"info","ts":1610701817.426083,"msg":"IP:127.0.0.1:51314:/static/assets/js/wasm_exec.js:2021-01-15 17:07:30.6920118 +0800 PST"}
+{"level":"info","ts":1610701819.483343,"msg":"IP:127.0.0.1:51314:/:2021-01-15 17:07:30.6920118 +0800 PST"}
+{"level":"info","ts":1610701819.5493863,"msg":"IP:127.0.0.1:51314:/static/assets/js/wasm_exec.js:2021-01-15 17:07:30.6920118 +0800 PST"}
+{"level":"info","ts":1610701821.7790773,"msg":"IP:127.0.0.1:51314:/:2021-01-15 17:07:30.6920118 +0800 PST"}
+{"level":"info","ts":1610701821.8481255,"msg":"IP:127.0.0.1:51314:/static/assets/js/wasm_exec.js:2021-01-15 17:07:30.6920118 +0800 PST"}
+{"level":"error","ts":1610717764.0880604,"msg":"http: Server closed"}
+{"level":"warn","ts":1610717764.5890574,"msg":"Server has been shutdown at 2021-01-15 17:07:30.6920118 +0800 PST"}

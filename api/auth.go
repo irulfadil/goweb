@@ -1,0 +1,229 @@
+package api
+
+import (
+	"database/sql"
+	"encoding/json"
+	"fmt"
+	"goweb/config"
+	"html/template"
+	"io/ioutil"
+	"net/http"
+	"strconv"
+	"strings"
+	"time"
+
+	_ "github.com/go-sql-driver/mysql"
+	"github.com/gorilla/csrf"
+	"github.com/gorilla/mux"
+	"github.com/itrepablik/itrlog"
+	"github.com/itrepablik/tago"
+)
+
+var db *sql.DB
+var err error
+
+func connetdb() (db *sql.DB) {
+	dbdrive := "mysql"
+	db, err := sql.Open(dbdrive, config.DBConStr)
+	if err != nil {
+		panic(err.Error())
+	}
+	return db
+}
+
+// AuthRouters are the collection of all URLs for the Auth App.
+func AuthRouters(r *mux.Router) {
+	r.HandleFunc("/api/v1/user/login", LoginUserEndpoint).Methods("POST")
+	r.HandleFunc("/register", RegisterEndpoint).Methods("POST")
+	r.HandleFunc("/login", Login).Methods("GET")
+}
+
+// Login function is to render the homepage page.
+func Login(w http.ResponseWriter, r *http.Request) {
+	tmpl := template.Must(template.ParseFiles(config.SiteRootTemplate+"front/login.html", config.SiteHeaderTemplate, config.SiteFooterTemplate))
+
+	data := contextData{
+		"PageTitle":    "Login - " + config.SiteShortName,
+		"PageMetaDesc": config.SiteShortName + " account, sign in to access your account.",
+		"CanonicalURL": r.RequestURI,
+		"CsrfToken":    csrf.Token(r),
+		"Settings":     config.SiteSettings,
+	}
+	tmpl.Execute(w, data)
+}
+
+type jsonResponse struct {
+	IsSuccess  string `json:"isSuccess"`
+	AlertTitle string `json:"alertTitle"`
+	AlertMsg   string `json:"alertMsg"`
+	AlertType  string `json:"alertType"`
+}
+
+// LoginUserEndpoint is to validate the user's login credential
+func LoginUserEndpoint(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("content-type", "application/json")
+	w.WriteHeader(http.StatusOK)
+
+	body, errBody := ioutil.ReadAll(r.Body)
+	if errBody != nil {
+		itrlog.Error(errBody)
+		panic(errBody.Error())
+	}
+
+	keyVal := make(map[string]string)
+	json.Unmarshal(body, &keyVal)
+
+	userName := strings.TrimSpace(keyVal["username"])
+	password := keyVal["password"]
+	isSiteKeepMe, _ := strconv.ParseBool(keyVal["isSiteKeepMe"])
+
+	fmt.Print("userName: ", userName)
+	fmt.Print("password: ", password)
+	fmt.Print("isSiteKeepMe: ", isSiteKeepMe)
+
+	itrlog.Info("userName: ", userName)
+	itrlog.Info("password: ", password)
+	itrlog.Info("isSiteKeepMe: ", isSiteKeepMe)
+
+	// Check if form is empty
+	if len(strings.TrimSpace(userName)) == 0 {
+		w.Write([]byte(`{ "IsSuccess": "false", "AlertTitle": "Username is Required BK", "AlertMsg": "Please enter your username.", "AlertType": "error" }`))
+		return
+	}
+
+	if len(strings.TrimSpace(password)) == 0 {
+		w.Write([]byte(`{ "IsSuccess": "false", "AlertTitle": "Password is Required BK", "AlertMsg": "Please enter your password.", "AlertType": "error" }`))
+		return
+	}
+
+	// Set the cookie expiry in days.
+	expDays := "1" // default to expire in 1 day.
+	if isSiteKeepMe == true {
+		expDays = config.UserCookieExp
+	}
+
+	// Encrypt the username value to store it from the user's cookie.
+	encryptedUserName, err := tago.Encrypt(userName, config.MyEncryptDecryptSK)
+	if err != nil {
+		itrlog.Error(err)
+	}
+
+	w.Write([]byte(`{ "isSuccess": "true", "AlertTitle": "Login Successful", "AlertMsg": "Your account has been verified and it's successfully logged-in.",
+		"AlertType": "success", "redirectTo": "` + config.SiteBaseURL + `dashboard", "eUsr": "` + encryptedUserName + `", "expDays": "` + expDays + `" }`))
+}
+
+// RegisterEndpoint function is to render the Account SignUp page.
+func RegisterEndpoint(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("content-type", "application/json")
+	w.WriteHeader(http.StatusOK)
+
+	body, errBody := ioutil.ReadAll(r.Body)
+	if errBody != nil {
+		itrlog.Error(errBody)
+		panic(errBody.Error())
+	}
+
+	keyVals := make(map[string]string)
+	json.Unmarshal(body, &keyVals)
+
+	username := strings.TrimSpace(keyVals["username"])
+	password := keyVals["password"]
+	confirmPassword := keyVals["confirmPassword"]
+	email := strings.TrimSpace(keyVals["email"])
+	country := keyVals["country"]
+	// firstName := keyVals["first_name"]
+	// lastName := keyVals["last_name"]
+	// isSuperuser := keyVals["is_superuser"]
+	// isAdmin := keyVals["is_admin"]
+	// dateJoined := keyVals["date_joined"]
+	// isActive := keyVals["is_active"]
+	rememberMe, _ := strconv.ParseBool(keyVals["rememberMe"])
+
+	fmt.Print("Username:", username)
+	fmt.Print("Password:", password)
+	fmt.Print("ConfirmPassword:", confirmPassword)
+	fmt.Print("Email:", email)
+	fmt.Print("Country:", country)
+	// fmt.Print("First_name:", firstName)
+	// fmt.Print("Last_name:", lastName)
+	// fmt.Print("Superuser:", isSuperuser)
+	// fmt.Print("Admin:", isAdmin)
+	// fmt.Print("Date_joined:", dateJoined)
+	// fmt.Print("Active:", isActive)
+	fmt.Print("RemmberMe:", rememberMe)
+
+	itrlog.Info("Username:", username)
+	itrlog.Info("Password:", password)
+	itrlog.Info("ConfirmPassword:", confirmPassword)
+	itrlog.Info("Email:", email)
+	itrlog.Info("Country:", country)
+	// itrlog.Info("First_name:", firstName)
+	// itrlog.Info("Last_name:", lastName)
+	// itrlog.Info("Superuser:", isSuperuser)
+	// itrlog.Info("Admin:", isAdmin)
+	// itrlog.Info("Date_joined:", dateJoined)
+	// itrlog.Info("Active:", isActive)
+	itrlog.Info("RemmberMe:", rememberMe)
+
+	if len(strings.TrimSpace(username)) == 0 {
+		w.Write([]byte(`{"IsSuccess":"false", "AlertTitle":"Name is Required REG", "AlertMsg":"Please enter your Username", "AlertType":"error"}`))
+	}
+
+	if len(strings.TrimSpace(password)) == 0 {
+		w.Write([]byte(`{"IsSuccess":"false", "AlertTitle":"Name is Required REG", "AlertMsg":"Please enter your Password", "AlertType":"error"}`))
+	}
+
+	if len(strings.TrimSpace(confirmPassword)) == 0 {
+		w.Write([]byte(`{"IsSuccess":"false", "AlertTitle":"Name is Required REG", "AlertMsg":"Please enter your Confirm Password", "AlertType":"error"}`))
+	}
+
+	if len(strings.TrimSpace(email)) == 0 {
+		w.Write([]byte(`{"IsSuccess":"false", "AlertTitle":"Name is Required REG", "AlertMsg":"Please enter your Email", "AlertType":"error"}`))
+	}
+
+	if len(strings.TrimSpace(country)) == 0 {
+		w.Write([]byte(`{"IsSuccess":"false", "AlertTitle":"Name is Required REG", "AlertMsg":"Please enter your Country", "AlertType":"error"}`))
+	}
+
+	// if len(strings.TrimSpace(firstName)) == 0 {
+	// 	w.Write([]byte(`{"IsSuccess":"false", "AlertTitle":"Name is Required REG", "AlertMsg":"Please enter your First Name", "AlertType":"error"}`))
+	// }
+
+	// if len(strings.TrimSpace(lastName)) == 0 {
+	// 	w.Write([]byte(`{"IsSuccess":"false", "AlertTitle":"Name is Required REG", "AlertMsg":"Please enter your Last Name", "AlertType":"error"}`))
+	// }
+
+	// if len(strings.TrimSpace(isSuperuser)) == 0 {
+	// 	w.Write([]byte(`{"IsSuccess":"false", "AlertTitle":"Name is Required REG", "AlertMsg":"Please enter your Superuser", "AlertType":"error"}`))
+	// }
+
+	// if len(strings.TrimSpace(isAdmin)) == 0 {
+	// 	w.Write([]byte(`{"IsSuccess":"false", "AlertTitle":"Name is Required REG", "AlertMsg":"Please enter your Admin", "AlertType":"error"}`))
+	// }
+
+	expDays := "1"
+	if rememberMe == true {
+		expDays = config.UserCookieExp
+	}
+
+	encryptedUserName, err := tago.Encrypt(username, config.MyEncryptDecryptSK)
+	if err != nil {
+		itrlog.Error(err)
+	}
+
+	dbCon := connetdb()
+	encrypted := encryptedUserName
+	insert, err := dbCon.Prepare("INSERT INTO users (username, password, country, email, encrypted, first_name, last_name," +
+		"is_superuser, is_admin, date_joined, is_active) VALUES (?,?,?,?,?,?,?,?,?,?,?)")
+
+	if err != nil {
+		itrlog.Error(err)
+	}
+
+	insert.Exec(username, password, country, email, encrypted, "irul", "fadil", "super", "admin", time.Now(), 0)
+	defer insert.Close()
+
+	w.Write([]byte(`{"IsSuccess":"true", "AlertTitle":"Register Successful", "AlertMsg":"Your registed has been successful, please login to next aplication", 
+					"AlertType":"success", "redirectTo":"` + config.SiteBaseURL + `", "eUsr":"` + encryptedUserName + `", "expDays":"` + expDays + `"}`))
+
+}

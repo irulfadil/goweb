@@ -1,0 +1,235 @@
+{"level":"info","ts":1611281587.332854,"msg":"Web server started at 2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281606.7633512,"msg":"IP:/:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281607.6222074,"msg":"IP:/static/stream-dashboard-ui-kit/assets/vendor/font-awesome/css/all.min.css:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281607.640267,"msg":"IP:/static/stream-dashboard-ui-kit/assets/css/theme.css:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281607.640267,"msg":"IP:/static/sweetalert2/sweetalert2.css:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281607.9436352,"msg":"IP:/static/assets/js/wasm_exec.js:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281608.5538414,"msg":"IP:/static/jquery/dist/jquery.min.js:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281608.5538414,"msg":"IP:/static/stream-dashboard-ui-kit/assets/svg/mockups/mockup.svg:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281608.5618284,"msg":"IP:/static/assets/images/logo_sim.png:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281608.5648398,"msg":"IP:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-1.svg:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281608.8707716,"msg":"IP:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-2.svg:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281608.8727684,"msg":"IP:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-3.svg:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281609.0595016,"msg":"IP:/static/stream-dashboard-ui-kit/assets/vendor/font-awesome/webfonts/fa-regular-400.woff2:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281609.0595016,"msg":"IP:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-4.svg:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281609.3192723,"msg":"IP:/static/sweetalert2/sweetalert2.all.min.js:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281611.750651,"msg":"IP:/signup:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281611.8186762,"msg":"IP:/static/assets/js/wasm_exec.js:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281682.8090339,"msg":"IP:/signup:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281682.909102,"msg":"IP:/static/sweetalert2/sweetalert2.css:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281682.9101017,"msg":"IP:/static/stream-dashboard-ui-kit/assets/vendor/font-awesome/css/all.min.css:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281682.9101017,"msg":"IP:/static/stream-dashboard-ui-kit/assets/css/theme.css:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281682.9271138,"msg":"IP:/static/assets/js/wasm_exec.js:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281683.100229,"msg":"IP:/static/jquery/dist/jquery.min.js:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281683.1372533,"msg":"IP:/static/stream-dashboard-ui-kit/assets/svg/mockups/mockup.svg:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281683.1382544,"msg":"IP:/static/assets/images/logo_sim.png:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281683.1842847,"msg":"IP:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-2.svg:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281683.1852853,"msg":"IP:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-1.svg:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281683.1872869,"msg":"IP:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-3.svg:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281683.2083015,"msg":"IP:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-4.svg:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281683.210302,"msg":"IP:/static/sweetalert2/sweetalert2.all.min.js:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281683.3814168,"msg":"IP:/static/stream-dashboard-ui-kit/assets/vendor/font-awesome/webfonts/fa-regular-400.woff2:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281706.2687218,"msg":"IP:/register:2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611281706.2697234,"msg":"Username:irulfadil22"}
+{"level":"info","ts":1611281706.2697234,"msg":"Password:123"}
+{"level":"info","ts":1611281706.2697234,"msg":"ConfirmPassword:123"}
+{"level":"info","ts":1611281706.2697234,"msg":"Email:fadil@gmail.com"}
+{"level":"info","ts":1611281706.2697234,"msg":"Country:Idonesia"}
+{"level":"info","ts":1611281706.2697234,"msg":"First_name:"}
+{"level":"info","ts":1611281706.2697234,"msg":"Last_name:"}
+{"level":"info","ts":1611281706.2697234,"msg":"Superuser:"}
+{"level":"info","ts":1611281706.2697234,"msg":"Admin:"}
+{"level":"info","ts":1611281706.2697234,"msg":"Date_joined:"}
+{"level":"info","ts":1611281706.2697234,"msg":"Active:"}
+{"level":"info","ts":1611281706.2697234,"msg":"RemmberMe:true"}
+{"level":"error","ts":1611282006.8668456,"msg":"http: Server closed"}
+{"level":"warn","ts":1611282007.368317,"msg":"Server has been shutdown at 2021-01-22 09:13:07.3308517 +0700 +07 m=+0.006004501"}
+{"level":"info","ts":1611282019.9776316,"msg":"Web server started at 2021-01-22 09:20:19.9766338 +0700 +07 m=+0.027014101"}
+{"level":"info","ts":1611282023.1310513,"msg":"IP:/signup:2021-01-22 09:20:19.9766338 +0700 +07 m=+0.027014101"}
+{"level":"info","ts":1611282023.2091026,"msg":"IP:/static/assets/js/wasm_exec.js:2021-01-22 09:20:19.9766338 +0700 +07 m=+0.027014101"}
+{"level":"info","ts":1611282023.722445,"msg":"IP:/static/assets/images/favicon.ico:2021-01-22 09:20:19.9766338 +0700 +07 m=+0.027014101"}
+{"level":"info","ts":1611282058.1358552,"msg":"IP:/register:2021-01-22 09:20:19.9766338 +0700 +07 m=+0.027014101"}
+{"level":"info","ts":1611282058.136856,"msg":"Username:admintest"}
+{"level":"info","ts":1611282058.136856,"msg":"Password:123"}
+{"level":"info","ts":1611282058.136856,"msg":"ConfirmPassword:123"}
+{"level":"info","ts":1611282058.136856,"msg":"Email:email@gmail.com"}
+{"level":"info","ts":1611282058.136856,"msg":"RemmberMe:true"}
+{"level":"info","ts":1611282186.28207,"msg":"IP:/signup:2021-01-22 09:20:19.9766338 +0700 +07 m=+0.027014101"}
+{"level":"info","ts":1611282186.3821375,"msg":"IP:/static/assets/js/wasm_exec.js:2021-01-22 09:20:19.9766338 +0700 +07 m=+0.027014101"}
+{"level":"info","ts":1611282186.889475,"msg":"IP:/static/assets/images/favicon.ico:2021-01-22 09:20:19.9766338 +0700 +07 m=+0.027014101"}
+{"level":"info","ts":1611282211.39156,"msg":"IP:/register:2021-01-22 09:20:19.9766338 +0700 +07 m=+0.027014101"}
+{"level":"info","ts":1611282211.392561,"msg":"Username:djonk"}
+{"level":"info","ts":1611282211.392561,"msg":"Password:123"}
+{"level":"info","ts":1611282211.3935618,"msg":"ConfirmPassword:123"}
+{"level":"info","ts":1611282211.3935618,"msg":"Email:djonkwae@gmail.com"}
+{"level":"info","ts":1611282211.3935618,"msg":"RemmberMe:true"}
+{"level":"error","ts":1611282385.594111,"msg":"http: Server closed"}
+{"level":"warn","ts":1611282386.0949557,"msg":"Server has been shutdown at 2021-01-22 09:20:19.9766338 +0700 +07 m=+0.027014101"}
+{"level":"info","ts":1611282389.798686,"msg":"Web server started at 2021-01-22 09:26:29.7976862 +0700 +07 m=+0.019014401"}
+{"level":"info","ts":1611282407.247793,"msg":"IP:/signup:2021-01-22 09:26:29.7976862 +0700 +07 m=+0.019014401"}
+{"level":"info","ts":1611282407.329848,"msg":"IP:/static/assets/js/wasm_exec.js:2021-01-22 09:26:29.7976862 +0700 +07 m=+0.019014401"}
+{"level":"info","ts":1611282407.8251789,"msg":"IP:/static/assets/images/favicon.ico:2021-01-22 09:26:29.7976862 +0700 +07 m=+0.019014401"}
+{"level":"info","ts":1611282430.2303145,"msg":"IP:/register:2021-01-22 09:26:29.7976862 +0700 +07 m=+0.019014401"}
+{"level":"info","ts":1611282430.2313156,"msg":"Username:fadil"}
+{"level":"info","ts":1611282430.2313156,"msg":"Password:123"}
+{"level":"info","ts":1611282430.2313156,"msg":"ConfirmPassword:123"}
+{"level":"info","ts":1611282430.2313156,"msg":"Email:email@gmail.com"}
+{"level":"info","ts":1611282430.2313156,"msg":"RemmberMe:true"}
+{"level":"error","ts":1611282500.4997487,"msg":"http: Server closed"}
+{"level":"warn","ts":1611282500.9999845,"msg":"Server has been shutdown at 2021-01-22 09:26:29.7976862 +0700 +07 m=+0.019014401"}
+{"level":"info","ts":1611282513.643937,"msg":"Web server started at 2021-01-22 09:28:33.6429372 +0700 +07 m=+0.012010601"}
+{"level":"info","ts":1611282527.6282284,"msg":"IP:/signup:2021-01-22 09:28:33.6429372 +0700 +07 m=+0.012010601"}
+{"level":"info","ts":1611282527.730295,"msg":"IP:/static/assets/js/wasm_exec.js:2021-01-22 09:28:33.6429372 +0700 +07 m=+0.012010601"}
+{"level":"info","ts":1611282528.3607144,"msg":"IP:/static/assets/images/favicon.ico:2021-01-22 09:28:33.6429372 +0700 +07 m=+0.012010601"}
+{"level":"info","ts":1611282551.7361476,"msg":"IP:/register:2021-01-22 09:28:33.6429372 +0700 +07 m=+0.012010601"}
+{"level":"info","ts":1611282551.7371473,"msg":"Username:djonk"}
+{"level":"info","ts":1611282551.7371473,"msg":"Password:123"}
+{"level":"info","ts":1611282551.7371473,"msg":"ConfirmPassword:123"}
+{"level":"info","ts":1611282551.7371473,"msg":"Email:email@gmail.com"}
+{"level":"info","ts":1611282551.7371473,"msg":"Country:Idonesia"}
+{"level":"info","ts":1611282551.7371473,"msg":"RemmberMe:true"}
+{"level":"info","ts":1611282663.041608,"msg":"IP:/signup:2021-01-22 09:28:33.6429372 +0700 +07 m=+0.012010601"}
+{"level":"info","ts":1611282663.1306698,"msg":"IP:/static/assets/js/wasm_exec.js:2021-01-22 09:28:33.6429372 +0700 +07 m=+0.012010601"}
+{"level":"info","ts":1611282663.6490173,"msg":"IP:/static/assets/images/favicon.ico:2021-01-22 09:28:33.6429372 +0700 +07 m=+0.012010601"}
+{"level":"info","ts":1611282706.64298,"msg":"IP:/signup:2021-01-22 09:28:33.6429372 +0700 +07 m=+0.012010601"}
+{"level":"info","ts":1611282706.7279446,"msg":"IP:/static/assets/js/wasm_exec.js:2021-01-22 09:28:33.6429372 +0700 +07 m=+0.012010601"}
+{"level":"info","ts":1611282707.1842496,"msg":"IP:/static/assets/images/favicon.ico:2021-01-22 09:28:33.6429372 +0700 +07 m=+0.012010601"}
+{"level":"info","ts":1611282758.4820254,"msg":"IP:/register:2021-01-22 09:28:33.6429372 +0700 +07 m=+0.012010601"}
+{"level":"info","ts":1611282758.484027,"msg":"Username:muhammad"}
+{"level":"info","ts":1611282758.484027,"msg":"Password:123"}
+{"level":"info","ts":1611282758.484027,"msg":"ConfirmPassword:123"}
+{"level":"info","ts":1611282758.484027,"msg":"Email:mhs@gmail.com"}
+{"level":"info","ts":1611282758.484027,"msg":"Country:Idonesia"}
+{"level":"info","ts":1611282758.484027,"msg":"RemmberMe:true"}
+{"level":"error","ts":1611282903.7917423,"msg":"http: Server closed"}
+{"level":"warn","ts":1611282904.2925797,"msg":"Server has been shutdown at 2021-01-22 09:28:33.6429372 +0700 +07 m=+0.012010601"}
+{"level":"info","ts":1611282912.8523474,"msg":"Web server started at 2021-01-22 09:35:12.8513493 +0700 +07 m=+0.023018301"}
+{"level":"info","ts":1611282920.2756217,"msg":"IP:/signup:2021-01-22 09:35:12.8513493 +0700 +07 m=+0.023018301"}
+{"level":"info","ts":1611282920.3666837,"msg":"IP:/static/assets/js/wasm_exec.js:2021-01-22 09:35:12.8513493 +0700 +07 m=+0.023018301"}
+{"level":"info","ts":1611282920.8531408,"msg":"IP:/static/assets/images/favicon.ico:2021-01-22 09:35:12.8513493 +0700 +07 m=+0.023018301"}
+{"level":"info","ts":1611282949.1796966,"msg":"IP:/register:2021-01-22 09:35:12.8513493 +0700 +07 m=+0.023018301"}
+{"level":"info","ts":1611282949.1806998,"msg":"Username:terbaru"}
+{"level":"info","ts":1611282949.1806998,"msg":"Password:123"}
+{"level":"info","ts":1611282949.1806998,"msg":"ConfirmPassword:123"}
+{"level":"info","ts":1611282949.1806998,"msg":"Email:emai@gmail.com"}
+{"level":"info","ts":1611282949.1806998,"msg":"Country:Idonesia"}
+{"level":"info","ts":1611282949.1806998,"msg":"RemmberMe:true"}
+{"level":"info","ts":1611282984.6276343,"msg":"IP:/signup:2021-01-22 09:35:12.8513493 +0700 +07 m=+0.023018301"}
+{"level":"info","ts":1611282984.9358404,"msg":"IP:/static/assets/js/wasm_exec.js:2021-01-22 09:35:12.8513493 +0700 +07 m=+0.023018301"}
+{"level":"info","ts":1611282985.4962146,"msg":"IP:/static/assets/images/favicon.ico:2021-01-22 09:35:12.8513493 +0700 +07 m=+0.023018301"}
+{"level":"error","ts":1611283288.8924065,"msg":"http: Server closed"}
+{"level":"warn","ts":1611283289.393347,"msg":"Server has been shutdown at 2021-01-22 09:35:12.8513493 +0700 +07 m=+0.023018301"}
+{"level":"info","ts":1611283426.6509697,"msg":"Web server started at 2021-01-22 09:43:46.649971 +0700 +07 m=+0.017013001"}
+{"level":"info","ts":1611283430.1800041,"msg":"IP:/signup:2021-01-22 09:43:46.649971 +0700 +07 m=+0.017013001"}
+{"level":"info","ts":1611283430.2680624,"msg":"IP:/static/assets/js/wasm_exec.js:2021-01-22 09:43:46.649971 +0700 +07 m=+0.017013001"}
+{"level":"info","ts":1611283430.776401,"msg":"IP:/static/assets/images/favicon.ico:2021-01-22 09:43:46.649971 +0700 +07 m=+0.017013001"}
+{"level":"info","ts":1611283481.490272,"msg":"IP:/register:2021-01-22 09:43:46.649971 +0700 +07 m=+0.017013001"}
+{"level":"info","ts":1611283481.4922733,"msg":"Username:adminterbaru"}
+{"level":"info","ts":1611283481.4922733,"msg":"Password:123"}
+{"level":"info","ts":1611283481.4922733,"msg":"ConfirmPassword:123"}
+{"level":"info","ts":1611283481.4922733,"msg":"Email:email@gmail.com"}
+{"level":"info","ts":1611283481.4922733,"msg":"Country:Idonesia"}
+{"level":"info","ts":1611283481.4922733,"msg":"First_name:"}
+{"level":"info","ts":1611283481.4922733,"msg":"Last_name:"}
+{"level":"info","ts":1611283481.4922733,"msg":"Superuser:"}
+{"level":"info","ts":1611283481.4922733,"msg":"Admin:"}
+{"level":"info","ts":1611283481.4922733,"msg":"Date_joined:"}
+{"level":"info","ts":1611283481.4922733,"msg":"Active:"}
+{"level":"info","ts":1611283481.4922733,"msg":"RemmberMe:true"}
+{"level":"error","ts":1611283704.9281945,"msg":"http: Server closed"}
+{"level":"warn","ts":1611283705.430841,"msg":"Server has been shutdown at 2021-01-22 09:43:46.649971 +0700 +07 m=+0.017013001"}
+{"level":"info","ts":1611283708.2660306,"msg":"Web server started at 2021-01-22 09:48:28.2590273 +0700 +07 m=+0.007005501"}
+{"level":"info","ts":1611283711.3440711,"msg":"IP:/signup:2021-01-22 09:48:28.2590273 +0700 +07 m=+0.007005501"}
+{"level":"info","ts":1611283711.447137,"msg":"IP:/static/assets/js/wasm_exec.js:2021-01-22 09:48:28.2590273 +0700 +07 m=+0.007005501"}
+{"level":"info","ts":1611283711.9164488,"msg":"IP:/static/assets/images/favicon.ico:2021-01-22 09:48:28.2590273 +0700 +07 m=+0.007005501"}
+{"level":"info","ts":1611283734.3936782,"msg":"IP:/register:2021-01-22 09:48:28.2590273 +0700 +07 m=+0.007005501"}
+{"level":"info","ts":1611283734.3956804,"msg":"Username:jhon"}
+{"level":"info","ts":1611283734.3956804,"msg":"Password:123"}
+{"level":"info","ts":1611283734.3956804,"msg":"ConfirmPassword:123"}
+{"level":"info","ts":1611283734.3956804,"msg":"Email:email@gmail.com"}
+{"level":"info","ts":1611283734.3956804,"msg":"Country:Idonesia"}
+{"level":"info","ts":1611283734.3956804,"msg":"RemmberMe:true"}
+{"level":"error","ts":1611284030.529646,"msg":"http: Server closed"}
+{"level":"warn","ts":1611284031.038375,"msg":"Server has been shutdown at 2021-01-22 09:48:28.2590273 +0700 +07 m=+0.007005501"}
+{"level":"info","ts":1611284055.6543567,"msg":"Web server started at 2021-01-22 09:54:15.6533557 +0700 +07 m=+0.021014901"}
+{"level":"info","ts":1611284059.7524126,"msg":"IP:/signup:2021-01-22 09:54:15.6533557 +0700 +07 m=+0.021014901"}
+{"level":"info","ts":1611284059.8334677,"msg":"IP:/static/assets/js/wasm_exec.js:2021-01-22 09:54:15.6533557 +0700 +07 m=+0.021014901"}
+{"level":"info","ts":1611284060.3427937,"msg":"IP:/static/assets/images/favicon.ico:2021-01-22 09:54:15.6533557 +0700 +07 m=+0.021014901"}
+{"level":"info","ts":1611284089.6727302,"msg":"IP:/register:2021-01-22 09:54:15.6533557 +0700 +07 m=+0.021014901"}
+{"level":"info","ts":1611284089.6737313,"msg":"Username:wiki"}
+{"level":"info","ts":1611284089.6737313,"msg":"Password:123"}
+{"level":"info","ts":1611284089.6737313,"msg":"ConfirmPassword:123"}
+{"level":"info","ts":1611284089.6737313,"msg":"Email:wiki@gmail.com"}
+{"level":"info","ts":1611284089.6737313,"msg":"Country:Idonesia"}
+{"level":"info","ts":1611284089.6737313,"msg":"RemmberMe:true"}
+{"level":"error","ts":1611284164.123286,"msg":"http: Server closed"}
+{"level":"warn","ts":1611284164.629003,"msg":"Server has been shutdown at 2021-01-22 09:54:15.6533557 +0700 +07 m=+0.021014901"}
+{"level":"info","ts":1611284168.437909,"msg":"Web server started at 2021-01-22 09:56:08.43691 +0700 +07 m=+0.025019301"}
+{"level":"info","ts":1611284171.450251,"msg":"IP:/signup:2021-01-22 09:56:08.43691 +0700 +07 m=+0.025019301"}
+{"level":"info","ts":1611284171.5283,"msg":"IP:/static/assets/js/wasm_exec.js:2021-01-22 09:56:08.43691 +0700 +07 m=+0.025019301"}
+{"level":"info","ts":1611284172.0406413,"msg":"IP:/static/assets/images/favicon.ico:2021-01-22 09:56:08.43691 +0700 +07 m=+0.025019301"}
+{"level":"info","ts":1611284187.9461832,"msg":"IP:/register:2021-01-22 09:56:08.43691 +0700 +07 m=+0.025019301"}
+{"level":"info","ts":1611284187.9491842,"msg":"Username:wika"}
+{"level":"info","ts":1611284187.9491842,"msg":"Password:123"}
+{"level":"info","ts":1611284187.9491842,"msg":"ConfirmPassword:123"}
+{"level":"info","ts":1611284187.9491842,"msg":"Email:wika@gmail.com"}
+{"level":"info","ts":1611284187.9491842,"msg":"Country:Idonesia"}
+{"level":"info","ts":1611284187.9491842,"msg":"RemmberMe:true"}
+{"level":"error","ts":1611284798.3234904,"msg":"http: Server closed"}
+{"level":"warn","ts":1611284798.8315215,"msg":"Server has been shutdown at 2021-01-22 09:56:08.43691 +0700 +07 m=+0.025019301"}
+{"level":"info","ts":1611284804.0257854,"msg":"Web server started at 2021-01-22 10:06:44.0247825 +0700 +07 m=+0.023638401"}
+{"level":"info","ts":1611284813.9897313,"msg":"IP:/signup:2021-01-22 10:06:44.0247825 +0700 +07 m=+0.023638401"}
+{"level":"info","ts":1611284814.0727835,"msg":"IP:/static/assets/js/wasm_exec.js:2021-01-22 10:06:44.0247825 +0700 +07 m=+0.023638401"}
+{"level":"info","ts":1611284814.619147,"msg":"IP:/static/assets/images/favicon.ico:2021-01-22 10:06:44.0247825 +0700 +07 m=+0.023638401"}
+{"level":"info","ts":1611284835.3264668,"msg":"IP:/register:2021-01-22 10:06:44.0247825 +0700 +07 m=+0.023638401"}
+{"level":"info","ts":1611284835.3274674,"msg":"Username:irul"}
+{"level":"info","ts":1611284835.3274674,"msg":"Password:123"}
+{"level":"info","ts":1611284835.3274674,"msg":"ConfirmPassword:123"}
+{"level":"info","ts":1611284835.3274674,"msg":"Email:djonk@gmail.com"}
+{"level":"info","ts":1611284835.3274674,"msg":"Country:Idonesia"}
+{"level":"info","ts":1611284835.3274674,"msg":"RemmberMe:true"}
+{"level":"error","ts":1611284912.8691452,"msg":"http: Server closed"}
+{"level":"warn","ts":1611284913.371026,"msg":"Server has been shutdown at 2021-01-22 10:06:44.0247825 +0700 +07 m=+0.023638401"}
+{"level":"info","ts":1611284916.3986564,"msg":"Web server started at 2021-01-22 10:08:36.3986563 +0700 +07 m=+0.006002801"}
+{"level":"info","ts":1611284918.6234574,"msg":"IP:/signup:2021-01-22 10:08:36.3986563 +0700 +07 m=+0.006002801"}
+{"level":"info","ts":1611284918.7035089,"msg":"IP:/static/assets/js/wasm_exec.js:2021-01-22 10:08:36.3986563 +0700 +07 m=+0.006002801"}
+{"level":"info","ts":1611284919.2278578,"msg":"IP:/static/assets/images/favicon.ico:2021-01-22 10:08:36.3986563 +0700 +07 m=+0.006002801"}
+{"level":"info","ts":1611284935.5650334,"msg":"IP:/register:2021-01-22 10:08:36.3986563 +0700 +07 m=+0.006002801"}
+{"level":"info","ts":1611284935.5650334,"msg":"Username:irulfadil"}
+{"level":"info","ts":1611284935.5650334,"msg":"Password:234"}
+{"level":"info","ts":1611284935.5650334,"msg":"ConfirmPassword:234"}
+{"level":"info","ts":1611284935.5650334,"msg":"Email:djonk@gmail.com"}
+{"level":"info","ts":1611284935.5650334,"msg":"Country:Idonesia"}
+{"level":"info","ts":1611284935.5650334,"msg":"RemmberMe:true"}
+{"level":"error","ts":1611285059.8523097,"msg":"http: Server closed"}
+{"level":"warn","ts":1611285060.3524568,"msg":"Server has been shutdown at 2021-01-22 10:08:36.3986563 +0700 +07 m=+0.006002801"}
+{"level":"info","ts":1611285063.557399,"msg":"Web server started at 2021-01-22 10:11:03.5563979 +0700 +07 m=+0.044028101"}
+{"level":"info","ts":1611285065.388612,"msg":"IP:/signup:2021-01-22 10:11:03.5563979 +0700 +07 m=+0.044028101"}
+{"level":"info","ts":1611285065.4756691,"msg":"IP:/static/assets/js/wasm_exec.js:2021-01-22 10:11:03.5563979 +0700 +07 m=+0.044028101"}
+{"level":"info","ts":1611285065.9639955,"msg":"IP:/static/assets/images/favicon.ico:2021-01-22 10:11:03.5563979 +0700 +07 m=+0.044028101"}
+{"level":"info","ts":1611285088.7088158,"msg":"IP:/register:2021-01-22 10:11:03.5563979 +0700 +07 m=+0.044028101"}
+{"level":"info","ts":1611285088.7098162,"msg":"Username:iruldjonk"}
+{"level":"info","ts":1611285088.7098162,"msg":"Password:345"}
+{"level":"info","ts":1611285088.7098162,"msg":"ConfirmPassword:123"}
+{"level":"info","ts":1611285088.7098162,"msg":"Email:email@gmail.com"}
+{"level":"info","ts":1611285088.7098162,"msg":"Country:Idonesia"}
+{"level":"info","ts":1611285088.7098162,"msg":"RemmberMe:true"}
+{"level":"error","ts":1611285340.8388717,"msg":"http: Server closed"}
+{"level":"warn","ts":1611285341.3491452,"msg":"Server has been shutdown at 2021-01-22 10:11:03.5563979 +0700 +07 m=+0.044028101"}
+{"level":"info","ts":1611285347.111561,"msg":"Web server started at 2021-01-22 10:15:47.1115609 +0700 +07 m=+0.010004501"}
+{"level":"info","ts":1611285351.3101258,"msg":"IP:/signup:2021-01-22 10:15:47.1115609 +0700 +07 m=+0.010004501"}
+{"level":"info","ts":1611285351.3911777,"msg":"IP:/static/assets/js/wasm_exec.js:2021-01-22 10:15:47.1115609 +0700 +07 m=+0.010004501"}
+{"level":"info","ts":1611285351.8134599,"msg":"IP:/static/assets/images/favicon.ico:2021-01-22 10:15:47.1115609 +0700 +07 m=+0.010004501"}
+{"level":"info","ts":1611285377.2034304,"msg":"IP:/register:2021-01-22 10:15:47.1115609 +0700 +07 m=+0.010004501"}
+{"level":"info","ts":1611285377.2034304,"msg":"Username:ali"}
+{"level":"info","ts":1611285377.2034304,"msg":"Password:123"}
+{"level":"info","ts":1611285377.2034304,"msg":"ConfirmPassword:123"}
+{"level":"info","ts":1611285377.2034304,"msg":"Email:ali@gmail.com"}
+{"level":"info","ts":1611285377.2034304,"msg":"Country:Idonesia"}
+{"level":"info","ts":1611285377.2034304,"msg":"RemmberMe:true"}
+{"level":"info","ts":1611285394.9076333,"msg":"IP:/signup:2021-01-22 10:15:47.1115609 +0700 +07 m=+0.010004501"}
+{"level":"info","ts":1611285394.974933,"msg":"IP:/static/assets/js/wasm_exec.js:2021-01-22 10:15:47.1115609 +0700 +07 m=+0.010004501"}
+{"level":"info","ts":1611285395.4342387,"msg":"IP:/static/assets/images/favicon.ico:2021-01-22 10:15:47.1115609 +0700 +07 m=+0.010004501"}
+{"level":"info","ts":1611287699.0884335,"msg":"IP:/signup:2021-01-22 10:15:47.1115609 +0700 +07 m=+0.010004501"}
+{"level":"info","ts":1611287699.1574736,"msg":"IP:/static/assets/js/wasm_exec.js:2021-01-22 10:15:47.1115609 +0700 +07 m=+0.010004501"}
+{"level":"info","ts":1611287699.5947654,"msg":"IP:/static/assets/images/favicon.ico:2021-01-22 10:15:47.1115609 +0700 +07 m=+0.010004501"}
