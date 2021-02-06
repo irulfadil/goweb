@@ -31,7 +31,7 @@
 
                         <a class="link-muted small" href="/">Forgot Password?</a>
                     </div>
-                    <button type="button" class="btn btn-primary btn-block" onclick="login('username', 'password');" id="btnLogin">Login</button>
+                    <button type="button" class="btn btn-primary btn-block" onclick="Login('username', 'password');" id="btnLogin">Login</button>
                 </form>
 
                 <p class="small">
@@ -65,7 +65,7 @@
 
 <script>
     const go = new Go();
-        WebAssembly.instantiateStreaming(fetch("/static/assets/js/auth/auth.wasm"), go.importObject).then((result) => {
+        WebAssembly.instantiateStreaming(fetch("static/assets/js/auth/auth.wasm"), go.importObject).then((result) => {
             go.run(result.instance);
         });
 </script>

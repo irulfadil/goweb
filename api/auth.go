@@ -130,7 +130,7 @@ func LoginUser(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	w.Write([]byte(`{ "isSuccess": "true", "AlertTitle": "Login Successful", "AlertMsg": "Your account has been verified and it's successfully logged-in.",
-			"AlertType": "success", "redirectTo": "` + config.SiteBaseURL + `dashboard", "eUsr": "` + encryptedUserName + `", "expDays": "` + expDays + `" }`))
+		"AlertType": "success", "redirectTo": "` + config.SiteBaseURL + `dashboard", "eUsr": "` + encryptedUserName + `", "expDays": "` + expDays + `" }`))
 
 }
 
@@ -249,7 +249,6 @@ func Register(w http.ResponseWriter, r *http.Request) {
 
 	w.Write([]byte(`{"IsSuccess":"true", "AlertTitle":"Register Successful", "AlertMsg":"Your registed has been successful, please login to next aplication", 
 					"AlertType":"success", "redirectTo":"` + config.SiteBaseURL + `", "eUsr":"` + encryptedUserName + `", "expDays":"` + expDays + `"}`))
-
 }
 
 // GetAlluser this is funtion all data from database to endpoint

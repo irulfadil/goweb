@@ -14,6 +14,7 @@ import (
 func MainRouters(r *mux.Router) {
 	//Router Login admin
 	r.HandleFunc("/", Home).Methods("GET")
+	r.HandleFunc("/login", Login).Methods("GET")
 	r.HandleFunc("/signup", AccountSignup).Methods("GET")
 	r.HandleFunc("/passrecover", PasswordRecover).Methods("GET")
 
@@ -41,6 +42,22 @@ func Home(w http.ResponseWriter, r *http.Request) {
 		"Settings":     config.SiteSettings,
 	}
 	tmpl.Execute(w, data)
+	// http.Redirect(w, r, "dashboard", http.StatusSeeOther)
+}
+
+// Login function is to render the homepage page.
+func Login(w http.ResponseWriter, r *http.Request) {
+	tmpl := template.Must(template.ParseFiles(config.SiteRootTemplate+"front/login.html", config.SiteHeaderTemplate, config.SiteFooterTemplate))
+
+	data := contextData{
+		"PageTitle":    "SIM",
+		"PageMetaDesc": config.SiteSlogan,
+		"CanonicalURL": r.RequestURI,
+		"CsrfToken":    csrf.Token(r),
+		"Settings":     config.SiteSettings,
+	}
+	tmpl.Execute(w, data)
+	// http.Redirect(w, r, "dashboard", http.StatusSeeOther)
 }
 
 // AccountSignup function is to render new account page.

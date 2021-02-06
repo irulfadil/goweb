@@ -1,0 +1,75 @@
+{"level":"info","ts":1612493457.817756,"msg":"Web server started at 2021-02-05 09:50:57.8167553 +0700 +07 m=+0.006005301"}
+{"level":"info","ts":1612493828.8067763,"msg":"IP:/:2021-02-05 09:50:57.8167553 +0700 +07 m=+0.006005301"}
+{"level":"info","ts":1612493828.9838953,"msg":"IP:/static/stream-dashboard-ui-kit/assets/vendor/font-awesome/css/all.min.css:2021-02-05 09:50:57.8167553 +0700 +07 m=+0.006005301"}
+{"level":"info","ts":1612493828.9848955,"msg":"IP:/static/stream-dashboard-ui-kit/assets/css/theme.css:2021-02-05 09:50:57.8167553 +0700 +07 m=+0.006005301"}
+{"level":"info","ts":1612493828.9858966,"msg":"IP:/static/assets/js/wasm_exec.js:2021-02-05 09:50:57.8167553 +0700 +07 m=+0.006005301"}
+{"level":"info","ts":1612493828.9868963,"msg":"IP:/static/sweetalert2/sweetalert2.css:2021-02-05 09:50:57.8167553 +0700 +07 m=+0.006005301"}
+{"level":"info","ts":1612493829.2110462,"msg":"IP:/static/assets/images/logo_sim.png:2021-02-05 09:50:57.8167553 +0700 +07 m=+0.006005301"}
+{"level":"info","ts":1612493829.2120466,"msg":"IP:/static/jquery/dist/jquery.min.js:2021-02-05 09:50:57.8167553 +0700 +07 m=+0.006005301"}
+{"level":"info","ts":1612493829.2390652,"msg":"IP:/static/stream-dashboard-ui-kit/assets/svg/mockups/mockup.svg:2021-02-05 09:50:57.8167553 +0700 +07 m=+0.006005301"}
+{"level":"info","ts":1612493829.2400653,"msg":"IP:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-1.svg:2021-02-05 09:50:57.8167553 +0700 +07 m=+0.006005301"}
+{"level":"info","ts":1612493829.2410665,"msg":"IP:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-3.svg:2021-02-05 09:50:57.8167553 +0700 +07 m=+0.006005301"}
+{"level":"info","ts":1612493829.2420678,"msg":"IP:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-2.svg:2021-02-05 09:50:57.8167553 +0700 +07 m=+0.006005301"}
+{"level":"info","ts":1612493829.3601465,"msg":"IP:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-4.svg:2021-02-05 09:50:57.8167553 +0700 +07 m=+0.006005301"}
+{"level":"info","ts":1612493829.3601465,"msg":"IP:/static/sweetalert2/sweetalert2.all.min.js:2021-02-05 09:50:57.8167553 +0700 +07 m=+0.006005301"}
+{"level":"info","ts":1612493829.457211,"msg":"IP:/static/stream-dashboard-ui-kit/assets/vendor/font-awesome/webfonts/fa-regular-400.woff2:2021-02-05 09:50:57.8167553 +0700 +07 m=+0.006005301"}
+{"level":"info","ts":1612493829.6813602,"msg":"IP:/static/assets/images/favicon.ico:2021-02-05 09:50:57.8167553 +0700 +07 m=+0.006005301"}
+{"level":"info","ts":1612494676.0291793,"msg":"IP:/login:2021-02-05 09:50:57.8167553 +0700 +07 m=+0.006005301"}
+{"level":"info","ts":1612494676.3153687,"msg":"IP:/static/assets/js/auth/main.wasm:2021-02-05 09:50:57.8167553 +0700 +07 m=+0.006005301"}
+{"level":"error","ts":1612505686.8181257,"msg":"http: Server closed"}
+{"level":"warn","ts":1612505687.3181856,"msg":"Server has been shutdown at 2021-02-05 09:50:57.8167553 +0700 +07 m=+0.006005301"}
+{"level":"info","ts":1612505907.4548998,"msg":"Web server started at 2021-02-05 13:18:27.4528981 +0700 +07 m=+0.010007101"}
+{"level":"error","ts":1612505924.211679,"msg":"http: Server closed"}
+{"level":"warn","ts":1612505924.7117317,"msg":"Server has been shutdown at 2021-02-05 13:18:27.4528981 +0700 +07 m=+0.010007101"}
+{"level":"info","ts":1612505962.4573953,"msg":"Web server started at 2021-02-05 13:19:22.4573951 +0700 +07 m=+0.005003801"}
+{"level":"info","ts":1612505968.987208,"msg":"IP:/login:2021-02-05 13:19:22.4573951 +0700 +07 m=+0.005003801"}
+{"level":"info","ts":1612505969.5575893,"msg":"IP:/static/assets/images/favicon.ico:2021-02-05 13:19:22.4573951 +0700 +07 m=+0.005003801"}
+{"level":"error","ts":1612505983.994656,"msg":"http: Server closed"}
+{"level":"warn","ts":1612505984.4960513,"msg":"Server has been shutdown at 2021-02-05 13:19:22.4573951 +0700 +07 m=+0.005003801"}
+{"level":"info","ts":1612507766.651492,"msg":"Web server started at 2021-02-05 13:49:26.6504909 +0700 +07 m=+0.020014201"}
+{"level":"info","ts":1612507780.7392414,"msg":"IP:/login:2021-02-05 13:49:26.6504909 +0700 +07 m=+0.020014201"}
+{"level":"info","ts":1612507781.1345005,"msg":"IP:/static/assets/js/auth/auth.wasm:2021-02-05 13:49:26.6504909 +0700 +07 m=+0.020014201"}
+{"level":"info","ts":1612507781.4296978,"msg":"IP:/static/assets/images/favicon.ico:2021-02-05 13:49:26.6504909 +0700 +07 m=+0.020014201"}
+{"level":"error","ts":1612508463.0015976,"msg":"http: Server closed"}
+{"level":"warn","ts":1612508463.5022001,"msg":"Server has been shutdown at 2021-02-05 13:49:26.6504909 +0700 +07 m=+0.020014201"}
+{"level":"info","ts":1612508466.8546596,"msg":"Web server started at 2021-02-05 14:01:06.8546596 +0700 +07 m=+0.005003301"}
+{"level":"info","ts":1612508474.9118419,"msg":"IP:/login:2021-02-05 14:01:06.8546596 +0700 +07 m=+0.005003301"}
+{"level":"info","ts":1612508475.3471322,"msg":"IP:/static/assets/js/auth/auth.wasm:2021-02-05 14:01:06.8546596 +0700 +07 m=+0.005003301"}
+{"level":"info","ts":1612508475.576285,"msg":"IP:/static/assets/images/favicon.ico:2021-02-05 14:01:06.8546596 +0700 +07 m=+0.005003301"}
+{"level":"info","ts":1612509507.9441543,"msg":"IP:/login:2021-02-05 14:01:06.8546596 +0700 +07 m=+0.005003301"}
+{"level":"info","ts":1612509508.3374166,"msg":"IP:/static/assets/js/auth/auth.wasm:2021-02-05 14:01:06.8546596 +0700 +07 m=+0.005003301"}
+{"level":"info","ts":1612509508.5765762,"msg":"IP:/static/assets/images/favicon.ico:2021-02-05 14:01:06.8546596 +0700 +07 m=+0.005003301"}
+{"level":"info","ts":1612509827.2268915,"msg":"IP:/login:2021-02-05 14:01:06.8546596 +0700 +07 m=+0.005003301"}
+{"level":"info","ts":1612509827.3359618,"msg":"IP:/static/assets/js/wasm_exec.js:2021-02-05 14:01:06.8546596 +0700 +07 m=+0.005003301"}
+{"level":"info","ts":1612509827.662179,"msg":"IP:/static/assets/js/auth/auth.wasm:2021-02-05 14:01:06.8546596 +0700 +07 m=+0.005003301"}
+{"level":"info","ts":1612509827.8733199,"msg":"IP:/static/assets/images/favicon.ico:2021-02-05 14:01:06.8546596 +0700 +07 m=+0.005003301"}
+{"level":"info","ts":1612512355.1413,"msg":"IP:/login:2021-02-05 14:01:06.8546596 +0700 +07 m=+0.005003301"}
+{"level":"info","ts":1612512355.6326272,"msg":"IP:/static/assets/js/auth/auth.wasm:2021-02-05 14:01:06.8546596 +0700 +07 m=+0.005003301"}
+{"level":"info","ts":1612512355.8747897,"msg":"IP:/static/assets/images/favicon.ico:2021-02-05 14:01:06.8546596 +0700 +07 m=+0.005003301"}
+{"level":"error","ts":1612512433.5308855,"msg":"http: Server closed"}
+{"level":"warn","ts":1612512434.0339394,"msg":"Server has been shutdown at 2021-02-05 14:01:06.8546596 +0700 +07 m=+0.005003301"}
+{"level":"info","ts":1612512437.5099664,"msg":"Web server started at 2021-02-05 15:07:17.5089656 +0700 +07 m=+0.011006401"}
+{"level":"info","ts":1612512456.9767187,"msg":"IP:/:2021-02-05 15:07:17.5089656 +0700 +07 m=+0.011006401"}
+{"level":"info","ts":1612513960.0698295,"msg":"IP:/:2021-02-05 15:07:17.5089656 +0700 +07 m=+0.011006401"}
+{"level":"info","ts":1612513960.7142594,"msg":"IP:/static/assets/images/favicon.ico:2021-02-05 15:07:17.5089656 +0700 +07 m=+0.011006401"}
+{"level":"info","ts":1612513972.6542373,"msg":"IP:/:2021-02-05 15:07:17.5089656 +0700 +07 m=+0.011006401"}
+{"level":"info","ts":1612513973.2006009,"msg":"IP:/static/assets/images/favicon.ico:2021-02-05 15:07:17.5089656 +0700 +07 m=+0.011006401"}
+{"level":"info","ts":1612513991.7593784,"msg":"IP:/api/v1/user/login:2021-02-05 15:07:17.5089656 +0700 +07 m=+0.011006401"}
+{"level":"info","ts":1612513991.7593784,"msg":"userName: admin"}
+{"level":"info","ts":1612513991.7593784,"msg":"password: admin"}
+{"level":"info","ts":1612513991.7593784,"msg":"isSiteKeepMe: true"}
+{"level":"info","ts":1612513998.8795397,"msg":"IP:/login:2021-02-05 15:07:17.5089656 +0700 +07 m=+0.011006401"}
+{"level":"info","ts":1612513999.2547903,"msg":"IP:/static/assets/js/auth/auth.wasm:2021-02-05 15:07:17.5089656 +0700 +07 m=+0.011006401"}
+{"level":"error","ts":1612515929.092309,"msg":"http: Server closed"}
+{"level":"warn","ts":1612515929.5923605,"msg":"Server has been shutdown at 2021-02-05 15:07:17.5089656 +0700 +07 m=+0.011006401"}
+{"level":"info","ts":1612515937.2056832,"msg":"Web server started at 2021-02-05 16:05:37.2046831 +0700 +07 m=+0.007007701"}
+{"level":"info","ts":1612515947.1745985,"msg":"IP:/login:2021-02-05 16:05:37.2046831 +0700 +07 m=+0.007007701"}
+{"level":"info","ts":1612515947.5948784,"msg":"IP:/static/assets/js/auth/auth.wasm:2021-02-05 16:05:37.2046831 +0700 +07 m=+0.007007701"}
+{"level":"info","ts":1612515947.8280342,"msg":"IP:/static/assets/images/favicon.ico:2021-02-05 16:05:37.2046831 +0700 +07 m=+0.007007701"}
+{"level":"error","ts":1612516002.6963794,"msg":"http: Server closed"}
+{"level":"warn","ts":1612516003.1964805,"msg":"Server has been shutdown at 2021-02-05 16:05:37.2046831 +0700 +07 m=+0.007007701"}
+{"level":"info","ts":1612516020.6775594,"msg":"Web server started at 2021-02-05 16:07:00.6775592 +0700 +07 m=+0.016356201"}
+{"level":"info","ts":1612516025.527714,"msg":"IP:/login:2021-02-05 16:07:00.6775592 +0700 +07 m=+0.016356201"}
+{"level":"info","ts":1612516026.2021616,"msg":"IP:/static/assets/images/favicon.ico:2021-02-05 16:07:00.6775592 +0700 +07 m=+0.016356201"}
+{"level":"error","ts":1612582720.070347,"msg":"http: Server closed"}
+{"level":"warn","ts":1612582720.5645883,"msg":"Server has been shutdown at 2021-02-05 16:07:00.6775592 +0700 +07 m=+0.016356201"}
